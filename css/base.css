@@ -1,0 +1,40 @@
+/*通用样式*/
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,pre,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+img{
+	display: block;
+}
+input{
+	outline: none;
+}
+.clearfix::after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	clear: both;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.mb-14{
+	margin-bottom: 14px;
+}
+.mr-14{
+	margin-right: 14px;
+}
+.hd{
+	display: none;
+}
